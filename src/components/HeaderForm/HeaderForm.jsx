@@ -19,7 +19,7 @@ const HeaderForm = ({ onSearch }) => {
   };
 
   return (
-    <div className="p-4 bg-gray-600 rounded-lg max-w-md mx-auto">
+    <div className="p-4 bg-[#8EB69B] rounded-lg max-w-md mx-auto">
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">Agent Type</label>
@@ -45,7 +45,7 @@ const HeaderForm = ({ onSearch }) => {
         </div>
         <button
           type="submit"
-          className="w-full bg-rose-300 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-md shadow focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
+          className="w-full bg-teal-300 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-md shadow focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
         >
           Search
         </button>

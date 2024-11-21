@@ -56,7 +56,7 @@ export default function MasterAgent() {
     <>
     
 
-      <h3 className="my-10 text-2xl font-semibold text-center text-black">
+      <h3 className="my-10 text-2xl font-extrabold text-center text-red-700">
         এজেন্ট এর আইডি নাম্বার দিয়ে খুজুনঃ
       </h3>
 

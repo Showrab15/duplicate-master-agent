@@ -3,7 +3,7 @@ import moment from "moment";
 
 export default function DateNav(){
     return (
-        <div className="md:block hidden bg-cyan-600">
+        <div className="md:block hidden bg-green-950">
             <div className="flex p-10">
                 <img className="mr-auto" src={logo} alt="" />
                 <div className="bg-green-500 text-black text-center p-4 rounded-sm ">

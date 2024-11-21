@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import BannerLayout from "../Layout/BannerLayout";
 import RandomMasterAgent from "../components/RandomMasterAgent/RandomMasterAgent";
 import FAQ from "../components/FAQ/FAQ";
@@ -38,11 +39,11 @@ export default function Home() {
         <meta property="og:site_name" content="Velkie123live" />
       </Helmet> */}
 
-      <BannerLayout />
+      {/* <BannerLayout />
       
       <RandomMasterAgent />
       <FAQ />
-      <FAQList />
+      <FAQList /> */}
     </div>
   );
 }

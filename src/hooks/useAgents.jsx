@@ -29,7 +29,7 @@
    useEffect(() => {
      const fetchAgents = async () => {
        try {
-         const response = await fetch("https://velkii-server.vercel.app/master-agents");
+         const response = await fetch("https://velkii-server.vercel.app/velkix24-master-agents");
          const data = await response.json();
          setAgents(data);
          setLoading(false);
